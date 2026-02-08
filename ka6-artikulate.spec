@@ -8,7 +8,7 @@
 Summary:	Artikulate
 Name:		ka6-%{kaname}
 Version:	25.12.2
-Release:	1
+Release:	2
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
@@ -31,6 +31,7 @@ BuildRequires:	kf6-karchive-devel >= %{kframever}
 BuildRequires:	kf6-kconfig-devel >= %{kframever}
 BuildRequires:	kf6-kcrash-devel >= %{kframever}
 BuildRequires:	kf6-ki18n-devel >= %{kframever}
+BuildRequires:	kf6-kirigami-devel >= %{kframever}
 BuildRequires:	kf6-knewstuff-devel >= %{kframever}
 BuildRequires:	kf6-kxmlgui-devel >= %{kframever}
 BuildRequires:	ninja
